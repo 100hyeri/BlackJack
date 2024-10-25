@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>BlackJack♣</h1>
+    <div id="dealer_table"></div>
+    <div id="betting_table">
+        <div class="chip" id="chip1"><span>x0</span></div>
+        <div class="chip" id="chip5"><span>x0</span></div>
+        <div class="chip" id="chip25"><span>x0</span></div>
+        <div class="chip" id="chip50"><span>x0</span></div>
+        <div class="chip" id="chip100"><span>x0</span><div>
+        <div class="chip" id="chip500"><span>x0</span></div>
+        <div id="player_money">$0</div>
+    </div>
+    <div id="player_table"></div>
+    <div id="chip_table">
+        <button id="chip1"></button>
+        <button id="chip5"></button>
+        <button id="chip25"></button>
+        <button id="chip50"></button>
+        <button id="chip100"></button>
+        <button id="chip500"></button>
+        <button id="betButton" onclick="showGameButtons()">Bet</button>
+    </div>
+
+    <div id="gameButton_table">
+        <button id="hitButton" onclick="">Hit</button>
+        <button id="stayButton" onclick="">Stay</button>
+        <button id="bustButton" onclick="">Bust</button>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
